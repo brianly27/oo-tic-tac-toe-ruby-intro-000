@@ -47,5 +47,5 @@ class TicTacToe
     }
 
 
-    
+
 end
