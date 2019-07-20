@@ -103,7 +103,8 @@ class TicTacToe
   def winner
     if won? != false
       combo = won?
-      return combo[0]
+      token = combo[0]
+      return token
     else
       nil
     end
