@@ -33,7 +33,7 @@ class TicTacToe
   def position_taken?
     @board.each do |position|
       !(board[position] == " " || board[position] == "" || board[position] == nil)
-        
-      
+
+
 
 end
