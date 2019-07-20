@@ -45,7 +45,7 @@ class TicTacToe
         counter += 1
       end
     }
-    counter
+    return counter
   end
 
 
