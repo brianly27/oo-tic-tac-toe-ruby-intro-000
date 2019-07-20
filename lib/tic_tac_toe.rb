@@ -85,7 +85,7 @@ class TicTacToe
         return combo
       end
     }
-    return false
+    false
   end
 
 end
