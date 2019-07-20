@@ -38,5 +38,14 @@ class TicTacToe
     !position_taken?(index) && index.between?(0,8)
   end
 
+  def turn_count
+    counter = 0
+    @board.each { |position|
+      if position_taken(position)
+        counter += 1
+      end
+    }
 
+
+    
 end
