@@ -30,9 +30,8 @@ class TicTacToe
     @board[index] = token
   end
 
-  def position_taken?
-    @board.each do |position|
-      !(board[position] == " " || board[position] == "" || board[position] == nil)
+  def position_taken?(index)
+      !(@board[index] == " " || @board[index] == "" || @board[index] == nil)
     end
   end
 
