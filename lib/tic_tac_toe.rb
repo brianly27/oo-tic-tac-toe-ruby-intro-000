@@ -38,5 +38,5 @@ class TicTacToe
     !position_taken?(@board[index]) && @board[index].between?(0,8)
   end
 
-  
+
 end
